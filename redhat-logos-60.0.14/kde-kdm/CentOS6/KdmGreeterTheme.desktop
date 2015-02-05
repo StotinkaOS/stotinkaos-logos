@@ -1,0 +1,6 @@
+[KdmGreeterTheme]
+Greeter=centos6.xml
+Name=CentOS 6
+Author=CentOS
+Copyright=(C) 2010 the CentOS Project
+Screenshot=screenshot.png

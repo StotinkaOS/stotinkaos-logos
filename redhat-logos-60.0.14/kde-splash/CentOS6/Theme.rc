@@ -1,0 +1,8 @@
+[KSplash Theme: CentOS6]
+Name = CentOS6
+Description = CentOS 6 Theme
+Version = 6.0
+Author = CentOS
+Homepage = http://centos.org
+
+Engine = KSplashX
