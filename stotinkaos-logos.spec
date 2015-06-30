@@ -7,13 +7,13 @@
 Name: stotinkaos-logos
 Summary: StotinkaOS-related icons and pictures
 Version: 60.0.14
-Release: 12%{?dist}
+Release: 13%{?dist}.sos
 Group: System Environment/Base
 # No upstream, do in dist-cvs
 Source0: redhat-logos-%{version}.tar.bz2
 
 License: Copyright 1999-2012 the StotinkaOS.  All rights reserved.
-URL: http://stotinkaos.org
+URL: http://stotinkaos.net
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch: noarch
 Conflicts: anaconda-images <= 10
@@ -188,6 +188,9 @@ fi
 # end i386 bits
 
 %changelog
+* Mon Jun 29 2015 Ivaylo Kuzev <ivo@stotinkaos.net> 60.0.14-13
+- Fix BUG - missing icon workstation.png
+
 * Sat Jan 31 2015 Ivaylo Kuzev <ivkuzev@gmail.com> 60.0.14-12
 - initial build for StotinkaOS
 - renamed to stotinkaos-logos
