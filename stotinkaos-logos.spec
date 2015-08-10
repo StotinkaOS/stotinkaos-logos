@@ -7,7 +7,7 @@
 Name: stotinkaos-logos
 Summary: StotinkaOS-related icons and pictures
 Version: 60.0.14
-Release: 13%{?dist}.sos
+Release: 14%{?dist}.sos
 Group: System Environment/Base
 # No upstream, do in dist-cvs
 Source0: redhat-logos-%{version}.tar.bz2
@@ -56,7 +56,7 @@ for i in redhat-pixmaps/*; do
 done
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/backgrounds/
-for i in backgrounds/*.png backgrounds/*.jpg backgrounds/default.xml; do
+for i in backgrounds/*.png backgrounds/default.xml; do
   install -p -m 644 $i $RPM_BUILD_ROOT%{_datadir}/backgrounds/
 done
 
@@ -188,6 +188,10 @@ fi
 # end i386 bits
 
 %changelog
+
+* Mon Aug 10 2015 Ivaylo Kuzev <ivo@stotinkaos.net> 60.0.14-14
+- Update backgrounds images for StotinkaOS release 6.7
+
 * Mon Jun 29 2015 Ivaylo Kuzev <ivo@stotinkaos.net> 60.0.14-13
 - Fix BUG - missing icon workstation.png
 
