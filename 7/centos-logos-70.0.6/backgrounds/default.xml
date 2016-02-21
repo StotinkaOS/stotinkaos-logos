@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>StotinkaOS Default Background</name>
+    <filename>/usr/share/backgrounds/default.jpg</filename>
+    <options>zoom</options>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>StotinkaOS Default Screensaver</name>
+    <filename>/usr/share/backgrounds/default-screensaver.jpg</filename>
+    <options>zoom</options>
+  </wallpaper>
+</wallpapers>
+
