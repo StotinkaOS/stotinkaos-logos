@@ -7,7 +7,7 @@
 Name: stotinkaos-logos
 Summary: StotinkaOS-related icons and pictures
 Version: 60.0.14
-Release: 14%{?dist}.sos
+Release: 15%{?dist}.sos
 Group: System Environment/Base
 # No upstream, do in dist-cvs
 Source0: redhat-logos-%{version}.tar.bz2
@@ -188,6 +188,8 @@ fi
 # end i386 bits
 
 %changelog
+* Wed Jun 01 2016 StotinkaOS Team <stotinkaos.bg@gmail.com> 60.0.14-15
+- Update backgrounds images for StotinkaOS release 6.8
 
 * Mon Aug 10 2015 Ivaylo Kuzev <ivo@stotinkaos.net> 60.0.14-14
 - Update backgrounds images for StotinkaOS release 6.7
