@@ -7,7 +7,7 @@
 Name: stotinkaos-logos
 Summary: StotinkaOS-related icons and pictures
 Version: 70.0.6 
-Release: 3%{?dist}.sos
+Release: 4%{?dist}
 Group: System Environment/Base
 URL: http://stotinkaos.net
 # No upstream, done in internal git
@@ -249,6 +249,9 @@ glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 # end i386 bits
 
 %changelog
+* Sun Dec 04 2016 StotinkaOS Team <stotinkaos.bg@gmail.com>
+- Update to 7.3
+
 * Sat Feb 06 2016 StotinkaOS Team <stotinkaos.bg@gmail.com>
 - Adapt for StotinkaOS 7
 - Renamed to stotinkaos-logos
